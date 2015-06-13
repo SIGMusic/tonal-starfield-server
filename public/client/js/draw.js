@@ -180,12 +180,12 @@ function drawHelpText()
 {
 	var canvas = document.getElementById('canvas');
 	var context = canvas.getContext('2d');
-	context.font = '48px serif';
+	context.font = '48px sans-serif';
 	context.fillStyle = '#cccccc';
 	context.textAlign = 'center';
 	var x = canvas.width / 2;
 	var y = canvas.height / 2;
-	context.fillText('draw', x , y);
+	context.fillText('Draw!', x , y);
 }
 
 /**
